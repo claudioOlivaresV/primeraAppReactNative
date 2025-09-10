@@ -43,6 +43,7 @@
 		5B7EB9410499542E8C5724F5 /* Pods-PrimeraApp-PrimeraAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimeraApp-PrimeraAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PrimeraApp-PrimeraAppTests/Pods-PrimeraApp-PrimeraAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-PrimeraApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrimeraApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6132EF172BDFF13200BBE14D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = PrimeraApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		7981C72B2E723E160035FBB5 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = PrimeraApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-PrimeraApp-PrimeraAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimeraApp-PrimeraAppTests.release.xcconfig"; path = "Target Support Files/Pods-PrimeraApp-PrimeraAppTests/Pods-PrimeraApp-PrimeraAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -108,6 +109,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7981C72A2E723DF70035FBB5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7981C72B2E723E160035FBB5 /* Ionicons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +127,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				7981C72A2E723DF70035FBB5 /* Fonts */,
 				6132EF172BDFF13200BBE14D /* PrivacyInfo.xcprivacy */,
 				13B07FAE1A68108700A75B9A /* PrimeraApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
